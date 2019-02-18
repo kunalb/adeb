@@ -215,7 +215,7 @@ function detect_repo_url() {
 
 function check_repo_url () {
 	if [ -z $ADEB_REPO_URL ]; then
-		c_info "No repository URL provided in enviromnent. Attempting to auto-detect it"
+		c_info "No repository URL provided in environment. Attempting to auto-detect it"
 		detect_repo_url
 	fi
 
